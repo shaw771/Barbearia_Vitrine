@@ -318,7 +318,8 @@ const diaProfKey = (ymd, prof) => `${ymd}#${prof}`;
 async function getReservasByDate(ymd) {
     const q = query(
         collection(db, 'agendamentos'),
-        where("diaProf", "==", diaProfKey(ymd, "barbeiro"))
+       where("diaProf", "==", diaProfKey(ymd, ctx.profissional || "barbeiro"))
+
     );
     const snap = await getDocs(q);
     const horasOcupadas = new Set();
