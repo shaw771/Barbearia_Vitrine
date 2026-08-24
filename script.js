@@ -287,13 +287,13 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCJgw_hifSoALg1rfpSDm5Kmtg3IwzhQiU",
-  authDomain: "barber-local-bb53d.firebaseapp.com",
-  projectId: "barber-local-bb53d",
-  storageBucket: "barber-local-bb53d.firebasestorage.app",
-  messagingSenderId: "749438395454",
-  appId: "1:749438395454:web:90bc87146ee2b8c1905d6f",
-  measurementId: "G-0BSDSS1NRC"
+  apiKey: "AIzaSyBPWbaq4y8XY_MSXwft3J0rwXFYlzH4Z70",
+  authDomain: "barbearia-amostra.firebaseapp.com",
+  projectId: "barbearia-amostra",
+  storageBucket: "barbearia-amostra.firebasestorage.app",
+  messagingSenderId: "974173474485",
+  appId: "1:974173474485:web:3306ad4181d1e33be778fc",
+  measurementId: "G-RCEJZL6B7C"
 };
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
